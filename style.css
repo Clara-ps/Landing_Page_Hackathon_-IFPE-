@@ -1,0 +1,16 @@
+nav{
+    background-color: green;
+    text-align:start;
+    font-size: small;
+    line-height: 150%;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: start;
+}
+
