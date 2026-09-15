@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#agenda">Agenda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#form">Formulário</a>
+                        <a class="nav-link" href="#formulario">Formulário</a>
                     </li>
                 </ul>
             </div>
@@ -35,24 +35,104 @@
     </header>
 
     <main>
-        <h1>IFPE Campus Jaboatão do Guararapes sedia Hackathon</h1>
-        <section id="hero">
-            <h2>Venha expadir seu conhecimento de uma forma dinâmica!</h2>
+        <section id="hero" class="bg-success text-white text-center py-5 mb-5 rounded-3 shadow">
+            <div class="container py-4">
+                <span class="badge bg-warning text-dark fs-6 mb-3 text-uppercase tracking-wide">Evento Presencial</span>
+                <h1 class="display-4 fw-bold mb-3">IFPE Campus Jaboatão dos Guararapes sedia Hackathon</h1>
+                <p class="lead fs-3 fw-light mb-4">Venha expandir seu conhecimento de uma forma dinâmica!</p>
+                <a href="#formulario" class="btn btn-light btn-lg fw-bold text-primary px-4 shadow-sm">Garantir Minha Vaga</a>
+            </div>
         </section>
-        <section id="sobre">
-            <h2>Sobre o hackathon</h2>
+
+        <section id="sobre" class="my-5 py-4">
+            <div class="container">
+                <div class="p-4 p-md-5 bg-light rounded-4 border-start border-primary border-5 shadow-sm">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-success fs-5 me-3">01</span>
+                        <h2 class="display-6 fw-bold m-0 text-dark">Sobre o Hackathon</h2>
+                    </div>
+                    <p class="fs-5 text-muted mb-0">
+                        O Hackathon do IFPE Jaboatão é uma maratona de inovação e tecnologia onde estudantes e entusiastas se reúnem para criar soluções para desafios reais. Prepare-se para dias intensos de aprendizado, trabalho em equipe e mentoria!
+                    </p>
+                </div>
+            </div>
         </section>
-        <section id="agenda">
-            <h2>Agenda dos eventos</h2>
+
+        <section id="agenda" class="my-5 py-5 bg-dark text-white rounded-4 shadow">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge bg-info text-dark mb-2">Programação</span>
+                    <h2 class="display-6 fw-bold border-bottom border-info d-inline-block pb-2">Agenda dos Eventos</h2>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 bg-secondary text-white border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-info fw-bold">Dia 1 — Abertura</h5>
+                                <p class="card-text text-light">Credenciamento, formação de equipes e apresentação dos desafios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 bg-secondary text-white border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-info fw-bold">Dia 2 — Mão na Massa</h5>
+                                <p class="card-text text-light">Desenvolvimento de projetos, mentorias com especialistas e workshops.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 bg-secondary text-white border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-info fw-bold">Dia 3 — Pitch & Premiação</h5>
+                                <p class="card-text text-light">Apresentação final para os jurados e anúncio dos vencedores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="formulario">
-            <h2>Faça sua inscrição</h2>
-            <form></form>
+
+        <section id="formulario" class="my-5 py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-header bg-success text-white py-3">
+                                <h2 class="h3 fw-bold mb-0 text-center">Faça sua Inscrição</h2>
+                            </div>
+                            <div class="card-body p-4 p-md-5">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label fw-semibold">Nome Completo</label>
+                                        <input type="text" class="form-control form-control-lg" id="nome" placeholder="Seu nome">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label fw-semibold">E-mail</label>
+                                        <input type="email" class="form-control form-control-lg" id="email" placeholder="seu.email@exemplo.com">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="perfil" class="form-label fw-semibold">Área de Atuação</label>
+                                        <select class="form-select form-select-lg" id="perfil">
+                                            <option selected disabled>Escolha sua área...</option>
+                                            <option value="dev">Desenvolvimento / Programação</option>
+                                            <option value="design">Design / UX/UI</option>
+                                            <option value="business">Negócios / Gestão</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-lg w-100 fw-bold shadow-sm">Confirmar Inscrição</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="mt-5 p-4 bg-success text-white">
+        <div class="mt-5 p-4 bg-black text-white">
             <nav class="navbar navbar-expand-sm">
                 <ul class="nav nav-pills flex-column">
                     <li><a href="privacidade" target="_blank">Política de privacidade</a></li>
